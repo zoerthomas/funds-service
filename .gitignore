@@ -1,0 +1,13 @@
+node_modules/
+dist/
+
+# Local environment; .env.example is the committed template
+.env
+
+# SQLite database and its WAL/shared-memory files
+*.db
+*.db-shm
+*.db-wal
+
+*.log
+.DS_Store
